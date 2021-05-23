@@ -1,0 +1,110 @@
+apiVersion: v1
+entries:
+  base:
+  - apiVersion: v1
+    created: "2021-05-23T17:25:16.044015508+02:00"
+    description: Helm chart for deploying Istio cluster resources and CRDs
+    digest: 898fbbbe9165ddff123e8bc97cfe213e4cc72f05a9f26325f2c27a8c4275c9be
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    name: base
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://martingutsche.github.io/istio/base-1.1.0.tgz
+    version: 1.1.0
+  istio-cni:
+  - apiVersion: v1
+    created: "2021-05-23T17:25:16.044474251+02:00"
+    description: Helm chart for istio-cni components
+    digest: b5e8b9ef43f5f3dd31d41c51bfed83b55e5997ff747cac87a106994d60ac99fc
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio-cni
+    - istio
+    name: istio-cni
+    sources:
+    - http://github.com/istio/cni
+    urls:
+    - https://martingutsche.github.io/istio/istio-cni-1.1.0.tgz
+    version: 1.1.0
+  istio-discovery:
+  - apiVersion: v1
+    created: "2021-05-23T17:25:16.047465076+02:00"
+    description: Helm chart for istio control plane
+    digest: 115ad50787da822e8005a294d2c2831a385d8587ac7dcc9b93c900bccea58b26
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    name: istio-discovery
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://martingutsche.github.io/istio/istio-discovery-1.2.0.tgz
+    version: 1.2.0
+  istio-egress:
+  - apiVersion: v1
+    created: "2021-05-23T17:25:16.048506899+02:00"
+    description: Helm chart for deploying Istio gateways
+    digest: 8758a1e739fa51e94b212c77f88a3205ab0c15d0fa4db06bd1ffa2fb9e86c776
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - egressgateway
+    - gateways
+    name: istio-egress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://martingutsche.github.io/istio/istio-egress-1.1.0.tgz
+    version: 1.1.0
+  istio-ingress:
+  - apiVersion: v1
+    created: "2021-05-23T17:25:16.049518823+02:00"
+    description: Helm chart for deploying Istio gateways
+    digest: efc156b908f018e1a9e8bf618da72265e7f9e8565438cd6dbf54d7ef8fa97e92
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - ingressgateway
+    - gateways
+    name: istio-ingress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://martingutsche.github.io/istio/istio-ingress-1.1.0.tgz
+    version: 1.1.0
+  istio-operator:
+  - apiVersion: v1
+    created: "2021-05-23T17:25:16.04987768+02:00"
+    description: Helm chart for deploying Istio operator
+    digest: 65c27d39a776486c203b073fa02f13099658918c01b6a4fcf343effd97eb843c
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - operator
+    name: istio-operator
+    sources:
+    - https://github.com/istio/istio/tree/master/operator
+    urls:
+    - https://martingutsche.github.io/istio/istio-operator-1.7.0.tgz
+    version: 1.7.0
+  istiod-remote:
+  - apiVersion: v1
+    created: "2021-05-23T17:25:16.051756615+02:00"
+    description: Helm chart for istio control plane configuration for remote clusters
+    digest: 82f882e4537565dc37027417c4fdc50197d6ddc8e37a79485909036454b5fc9b
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - istiod-remote
+    name: istiod-remote
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://martingutsche.github.io/istio/istiod-remote-1.1.0.tgz
+    version: 1.1.0
+generated: "2021-05-23T17:25:16.041476275+02:00"
